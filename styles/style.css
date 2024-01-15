@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-orange {
+  color: #ff5400;
+}
+
+
+
+
+
+
+/*--------------- navbar styles--------------- */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  padding: 2% 3%;
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo {
+  width: 4%;
+}
+.nav-logo-container p {
+  color: #131318;
+  font-size: 30px;
+  font-weight: 800;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #424247;
+}
+.nav-items li a:focus,
+.nav-items li a:active,
+.nav-items li a:hover {
+  color: #ff5400;
+  text-decoration: underline;
+}
+.nav-items li:first-child a {
+  color: #ff5400;
+}
+.btn-orange {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 4px;
+  background: #ff5400;
+  border: #ff5400;
+  padding: 7px 19px;
+  cursor: pointer;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.btn-orange:hover{
+    animation: bubble 0.4s ease-out;
+}
+
+
+
+
+
+
+
