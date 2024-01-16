@@ -56,6 +56,8 @@
   /*Our Popular Tours responsive styles for mobile devices */
   .tours-container {
     flex-direction: column;
+    width: 98%;
+    margin: auto;
   }
   .tour-info{
     width: 95%;
@@ -73,14 +75,15 @@
     
   }
 
-/*  */
+/* Simple Perfect responsive styles */
 .simple-img{
     position: relative;
   }
+
   .simple-img img{
     width: 95%;
     margin: auto;
-    /* height: 100%; */
+    
    
   }
   .simple-img-info{
@@ -89,8 +92,56 @@
     text-align: center;
   }
 
+/* destination section styles */
+.destination-gallery{
+    flex-direction: column;
+}
+.destination{
+    max-width: 90%;
+      margin: auto;
+}
+.destination img{
+    width: 100%;
+ 
 
+}
+/* footer responsive styles */
 
+ .footer-title img {
+    width: 20%;
+}
+
+.footer-container {
+    width: 60%;
+    margin: auto;
+}
+
+.footer-info {
+
+    width: 100%;
+    grid-template-areas:
+        "p p p"
+        "p p p";
+}
+
+.social-links {
+    width: 75%;
+}
+
+.footer-terms {
+
+    grid-template-areas:
+        "p p"
+        "p p";
+}
+
+.text-small {
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+/* footer section responsive styles end */
 
 }
 
