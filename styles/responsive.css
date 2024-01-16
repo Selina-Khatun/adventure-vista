@@ -73,8 +73,21 @@
     
   }
 
-
-
+/*  */
+.simple-img{
+    position: relative;
+  }
+  .simple-img img{
+    width: 95%;
+    margin: auto;
+    /* height: 100%; */
+   
+  }
+  .simple-img-info{
+    position:absolute ;
+    top: 50%;
+    text-align: center;
+  }
 
 
 
