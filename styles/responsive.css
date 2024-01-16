@@ -1,0 +1,37 @@
+/* Styles for small devices */
+@media screen and (max-width: 600px) {
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    label {
+    display: inline-flex;
+    cursor: pointer;
+  }
+
+  #toggler:checked ~ .items-container {
+    max-height: 100%;
+  }
+  .items-container {
+    overflow: hidden;
+    max-height: 0; 
+    transition: max-height 0.3s ease-out;
+    position: relative;
+    left: 70%;
+    padding-left: 2%;
+    
+  }
+  .nav-items {
+    flex-direction: column;
+  align-items: baseline;
+  }
+}
+/* Styles for medium devices */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+}
+
+/* Styles for large devices */
+@media screen and (min-width: 993px) {
+}

@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Images/Group 40071 (2).png" type="image/x-icon">
     <title>Adventure Vista</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="https://kit.fontawesome.com/8acf9ee4cf.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+        <!-- navbar starts from here -->
+
         <nav class="nav-container">
             <div class="nav-logo-container">
-               <div class="nav-logo"> <img src="./Images/Group 40071 (2).png" alt=""></div>
+                <div class="nav-logo"> <img src="./Images/Group 40071 (2).png" alt=""></div>
                 <p>Adventure <span class="text-orange">Vista</span></p>
             </div>
-            <ul class="nav-items">
-                <li><a href="">Home</a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><button class="btn-orange">LogIn</button></li>
-            </ul>
+            <label for="toggler">
+                <i class="fa fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggler" name="">
+            <div class="items-container">
+                <ul class="nav-items">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><button class="btn-orange">LogIn</button></li>
+                </ul>
+            </div>
+
         </nav>
+        <!-- banner section starts from here -->
+        <section class="banner">
+            <div class="banner-info">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            </div>
+            <div class="banner-input-container">
+
+                <input type="text" placeholder="Where go">
+                <select name="time" id="time">
+                    <option value="When">When</option>
+                    <option value="">January</option>
+                    <option value="">february</option>
+                    <option value="">march</option>
+
+                </select>
+                <select name="place" id="place">
+                    <option value="">Select Type</option>
+                    <option value="mountain">mountain</option>
+                    <option value="sea beach">sea beach</option>
+                    <option value="village">village</option>
+    
+                </select>
+                <button class="btn-orange"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+
+
+
+
+
+
+            </div>
+
+        </section>
     </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
