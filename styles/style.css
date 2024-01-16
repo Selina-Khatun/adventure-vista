@@ -162,7 +162,7 @@ select {
   width: 23%;
 }
 /* Our Popular Tours section styles  */
-.tours-container {
+.tours-container,.news-container {
   display: flex;
   margin: 7% 0%;
   justify-content: space-between;
@@ -213,7 +213,6 @@ select {
 }
 .destination {
   position: relative;
- 
 }
 .destination h3 {
   position: absolute;
@@ -226,49 +225,93 @@ select {
 }
 
 .destination img {
-  
   width: 100%;
   height: 96%;
   object-fit: cover;
   border-radius: 16px;
 }
-.first{
+.first {
   width: 620px;
   height: 300px;
 }
 
-.second-1{
+.second-1 {
   width: 384px;
-height: 286px;
-
+  height: 286px;
 }
-.second-2{
+.second-2 {
   width: 554px;
   height: 286px;
- 
 }
-.second-3{
+.second-3 {
   width: 304px;
   height: 286px;
 }
-.last-1{
+.last-1 {
   width: 473px;
-height: 300px;
-
+  height: 300px;
 }
-.last-2{
+.last-2 {
   width: 773px;
-height: 300px;
+  height: 300px;
 }
 
+/*  */
+.news-info {
+  width:30%;
+  margin: auto 0 ;
+  padding: 5%;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+}
+.news-img img {
+  width:710px;
+  height: 422px;
+}
+.news-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 2%;
+}
+.news-info button{
+  width: 100%;
 
+}
+.news-info input {
+  padding: 4% 9% 4% 5%;
+  border-radius: 4px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  border: none;
+  width: 85%;
+
+}
+.news-img{
+  position: relative;
+}
+.news-img-info {
+  background: #ff5400;
+  width: 30%;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  border-radius: 10.569px;
+  top: 64%;
+  left: 62%;
+  transform: rotate(-30deg);
+  text-align: center;
+}
 /* footer section styles */
 
 footer {
-
   margin-top: 0px;
-  background-color: #1313180D;
-  color: #FFF;
+  background-color: #1313180d;
+  color: #fff;
 }
 
 .footer-container {
@@ -284,7 +327,7 @@ footer {
   gap: 10px;
   align-items: center;
 }
-.footer-title h3{
+.footer-title h3 {
   color: #131318;
 }
 .footer-info {
@@ -293,13 +336,12 @@ footer {
   margin: 10px auto;
 }
 
-hr {
+footer hr {
   margin: 23px;
 }
 
 .social-links .fa-brands {
   margin: 8px;
-
 }
 
 .social-links .fa-facebook {
@@ -322,7 +364,7 @@ hr {
 
 .text-small {
   color: #131318;
-font-size: 14px;
-font-weight: 300;
-display: inline;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline;
 }

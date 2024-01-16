@@ -1,6 +1,7 @@
 /* Styles for small devices */
 @media screen and (max-width: 600px) {
-  header,main {
+  header,
+  main {
     width: 95%;
     margin: auto;
   }
@@ -54,95 +55,109 @@
     font-size: 24px;
   }
   /*Our Popular Tours responsive styles for mobile devices */
-  .tours-container {
+  .tours-container,
+  .news-container {
     flex-direction: column;
     width: 98%;
     margin: auto;
   }
-  .tour-info{
+  .tour-info {
     width: 95%;
     margin: auto;
   }
 
-  .tour-info button{
-    margin-bottom:5% ;
+  .tour-info button {
+    margin-bottom: 5%;
     width: 35%;
-   }
-
-   .section-title{
-   
-    font-size: 24px;
-    
   }
 
-/* Simple Perfect responsive styles */
-.simple-img{
+  .section-title {
+    font-size: 24px;
+  }
+
+  /* Simple Perfect responsive styles */
+  .simple-img {
     position: relative;
   }
 
-  .simple-img img{
+  .simple-img img {
     width: 95%;
     margin: auto;
-    
-   
+    object-fit: contain;
   }
-  .simple-img-info{
-    position:absolute ;
+  .simple-img-info {
+    position: absolute;
     top: 50%;
     text-align: center;
   }
 
-/* destination section styles */
-.destination-gallery{
+  /* destination section styles */
+  .destination-gallery {
     flex-direction: column;
-}
-.destination{
+  }
+  .destination {
     max-width: 90%;
-      margin: auto;
-}
-.destination img{
+    margin: auto;
+  }
+  .destination img {
     width: 100%;
- 
+    
+  }
+
+  /* news letter section styles */
+ .news-info{
+width: 90%;
+margin: auto;
+ }
+  .news-img{
+max-width: 98%;
+/* margin: auto; */
 
 }
-/* footer responsive styles */
+  .news-img img {
+    width: 100%;
+    object-fit: contain;
+  }
+.news-img-info{
+    top: 44%;
+  left: 40%;
+  width: 40%;
+}
 
- .footer-title img {
+  /* footer responsive styles */
+
+  .footer-title img {
     width: 20%;
-}
+  }
 
-.footer-container {
+  .footer-container {
     width: 60%;
     margin: auto;
-}
+  }
 
-.footer-info {
-
+  .footer-info {
     width: 100%;
     grid-template-areas:
-        "p p p"
-        "p p p";
-}
+      "p p p"
+      "p p p";
+  }
 
-.social-links {
+  .social-links {
     width: 75%;
-}
+  }
 
-.footer-terms {
-
+  .footer-terms {
     grid-template-areas:
-        "p p"
-        "p p";
-}
+      "p p"
+      "p p";
+  }
 
-.text-small {
+  .text-small {
     width: 50%;
     margin: 0px auto;
+  }
 
-}
-
-/* footer section responsive styles end */
-
+  /* footer section responsive styles end */
 }
 
 /* Styles for medium devices */
