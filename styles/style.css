@@ -95,6 +95,7 @@ label {
 
 label i {
   color: black;
+  font-size: 35px;
 }
 
 /* ------------banner section styles---------- */
@@ -133,7 +134,8 @@ label i {
   background: rgba(255, 255, 255, 0.418);
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 20px;
   padding: 15px 15px;
   border-radius: 10px;
@@ -145,4 +147,35 @@ select {
   border-radius: 10px;
   font-size: 18px;
   width: 23%;
+}
+/* Our Popular Tours section styles  */
+.tours-container{
+  display: flex;
+  margin: 7% 0%;
+ justify-content: space-between; 
+}
+.tour-info{
+  padding:0% 5% 0% 1%;
+  width: 50%;
+}
+.tour-info ul{
+  padding: 3% 5%;
+}
+.tours-img img{
+  width: 100% ;
+  height: 85%;
+}
+.section-title{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 3%;
+}
+.section-description{
+  color: #131318B3;
+line-height: 26px;
+/* padding: 3% 0%; */
+}
+.tour-info button{
+ margin-top:5% ;
 }

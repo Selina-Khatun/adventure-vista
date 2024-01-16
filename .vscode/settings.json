@@ -1,0 +1,6 @@
+{
+    "prettier.enableDebugLogs": true,
+    "prettier.bracketSameLine": true,
+    "prettier.endOfLine": "auto",
+    "prettier.singleAttributePerLine": false
+}

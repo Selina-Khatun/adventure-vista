@@ -1,12 +1,18 @@
 /* Styles for small devices */
 @media screen and (max-width: 600px) {
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-      }
-    label {
+  header,main {
+    width: 95%;
+    margin: auto;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2%;
+  }
+  label {
     display: inline-flex;
     cursor: pointer;
   }
@@ -16,18 +22,65 @@
   }
   .items-container {
     overflow: hidden;
-    max-height: 0; 
+    max-height: 0;
     transition: max-height 0.3s ease-out;
     position: relative;
-    left: 70%;
+    left: 50%;
     padding-left: 2%;
-    
   }
   .nav-items {
     flex-direction: column;
-  align-items: baseline;
+    align-items: baseline;
   }
+  /* banner responsive styles for mobile devices */
+  .banner {
+    padding: 3%;
+  }
+  .banner-info {
+    padding-top: 5%;
+  }
+  .banner-input-container {
+    flex-direction: column;
+  }
+
+  .banner-input-container input {
+    width: 95%;
+  }
+  .banner-input-container select,
+  button {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+  /*Our Popular Tours responsive styles for mobile devices */
+  .tours-container {
+    flex-direction: column;
+  }
+  .tour-info{
+    width: 95%;
+    margin: auto;
+  }
+
+  .tour-info button{
+    margin-bottom:5% ;
+    width: 35%;
+   }
+
+   .section-title{
+   
+    font-size: 24px;
+    
+  }
+
+
+
+
+
+
+
 }
+
 /* Styles for medium devices */
 @media screen and (min-width: 601px) and (max-width: 992px) {
 }
