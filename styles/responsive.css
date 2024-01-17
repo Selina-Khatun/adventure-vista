@@ -44,6 +44,9 @@
     flex-direction: column;
   }
 
+  .banner-title{
+    margin-top: 3%;
+  }
   .banner-input-container input {
     width: 95%;
   }
@@ -68,13 +71,27 @@
 
   .tour-info button {
     margin-bottom: 5%;
-    width: 35%;
+    width: 44%;
+    padding: auto 0%;
   }
 
   .section-title {
     font-size: 24px;
+    margin-top: 5%;
   }
-
+/* extra section responsive styles */
+.latest-container {
+  
+  width: 98%;
+  height: 100%;
+ 
+  
+}
+.feature-info input {
+  padding: 3% 5% 3% 2%;
+  
+  
+}
   /* Simple Perfect responsive styles */
   .simple-img {
     position: relative;
@@ -87,11 +104,13 @@
   }
   .simple-img-info {
     position: absolute;
-    top: 50%;
+    top: 40%;
+    left: 11%;
     text-align: center;
   }
 
   /* destination section styles */
+ 
   .destination-gallery {
     flex-direction: column;
   }
@@ -122,6 +141,20 @@ max-width: 98%;
     top: 44%;
   left: 40%;
   width: 40%;
+}
+/*  */
+
+.deals-first{
+/* align-items: ; */
+flex-direction: column;
+margin-bottom: 5%;
+}
+.deals-info-container{
+  width: 80%;
+ 
+margin: 37% auto 5%;
+padding: 3%;
+
 }
 /* choose section responsive styles */
 .section-info {
