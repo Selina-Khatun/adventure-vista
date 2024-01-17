@@ -123,7 +123,22 @@ max-width: 98%;
   left: 40%;
   width: 40%;
 }
-
+/* choose section responsive styles */
+.section-info {
+    text-align: center;
+   padding: 3%;
+  }
+.choose-container{
+    flex-direction: column;
+}
+.choose-hotel,.choose-service,.choose-guarantee{
+    max-width: 95%;
+    margin: auto;
+    border-radius: 16px;
+    padding: 2%;
+    margin-bottom : 4%;
+  
+  }
   /* footer responsive styles */
 
   .footer-title img {

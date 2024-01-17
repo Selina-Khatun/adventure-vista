@@ -110,7 +110,9 @@ label i {
   color: black;
   font-size: 35px;
 }
-
+.fa-magnifying-glass{
+  color: white !important;
+}
 /* ------------banner section styles---------- */
 
 .banner {
@@ -162,7 +164,8 @@ select {
   width: 23%;
 }
 /* Our Popular Tours section styles  */
-.tours-container,.news-container {
+.tours-container,
+.news-container {
   display: flex;
   margin: 7% 0%;
   justify-content: space-between;
@@ -258,18 +261,18 @@ select {
 
 /*  */
 .news-info {
-  width:30%;
-  margin: auto 0 ;
+  width: 30%;
+  margin: auto 0;
   padding: 5%;
   border-radius: 16px;
-border: 1px solid #FF5400;
-display: flex;
-flex-direction: column;
-align-items: start;
-justify-content: center;
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
 .news-img img {
-  width:710px;
+  width: 710px;
   height: 422px;
 }
 .news-title {
@@ -278,9 +281,8 @@ justify-content: center;
   font-weight: 800;
   margin-bottom: 2%;
 }
-.news-info button{
+.news-info button {
   width: 100%;
-
 }
 .news-info input {
   padding: 4% 9% 4% 5%;
@@ -289,9 +291,8 @@ justify-content: center;
   color: rgba(19, 19, 24, 0.3);
   border: none;
   width: 85%;
-
 }
-.news-img{
+.news-img {
   position: relative;
 }
 .news-img-info {
@@ -306,33 +307,122 @@ justify-content: center;
   transform: rotate(-30deg);
   text-align: center;
 }
-.choose-container{
+
+
+/* extra  latest section starts from here */
+.latest-container {
+  background-image: url("../Images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 77%;
+  height: 52vh;
+  margin: 80px auto;
+  border-radius: 5px;
+  color: #FFF;
+  text-align: center;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.feature-info {
+padding: 9%;
+}
+.feature-info h3{
+color: #fff;
+font-size: 40px;
+/* margin-bottom: 1%; */
+
+}
+.feature-info input {
+  padding: 1.3% 5% 1.3% 2%;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+
+/* choose section styles */
+.choose-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2%;
- 
-  
 }
-.choose-hotel,.choose-service,.choose-guarantee{
+.choose-hotel,
+.choose-service,
+.choose-guarantee {
   max-width: 43%;
   margin: auto;
   border-radius: 16px;
   padding: 2%;
-  margin-bottom : 2%;
-
+  margin-bottom: 2%;
 }
-.choose-hotel{
-  border: 1px solid rgba(251, 181, 99, 0.20);
+.choose-hotel {
+  border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
 }
-.choose-service{
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+.choose-service {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
 }
-.choose-guarantee{
+.choose-guarantee {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
 
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+/* deals-container section styles */
+.deals-first{
+  border-radius: 16px;
+background: url("../Images/Group\ 39.png"), lightgray 50% ;
+/* transform: scaleX(-1); */
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: end;
+flex-direction: row-reverse;
+margin-bottom: 5%;
+}
+
+.middle{
+  flex-direction: row; 
+  background: url("../Images/Group\ 40.png"), lightgray 50% ;
+  /* transform: scaleX(-1); */
+}
+/* .middle.deals-info-container{
+  transform: scaleX(-2);
+} */
+.deals-info-container{
+  max-width: 35%;
+  border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin: 7%;
+padding: 3%;
+
+}
+.deals-btn {
+  margin: 5%;
+  text-align: center;
+}
+.fa-solid {
+  color: #ff5400;
+}
+.icon-container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 6%;
+  margin-bottom: 3%;
+}
+.deals-tour .text-orange {
+  padding: 3% 0%;
+  font-size: 16px;
+  font-weight: 800;
 }
 /* footer section styles */
 
